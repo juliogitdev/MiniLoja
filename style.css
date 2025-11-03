@@ -181,3 +181,87 @@ footer {
     color: azure;
     background-color: slategrey;
 }
+
+.login-container {
+    width: 100%;
+    max-width: 450px;
+    
+
+    margin: 60px auto; 
+    
+    padding: 30px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05); 
+}
+
+#login-form h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+    font-size: 2rem;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.input-group input:focus {
+    outline: none;
+    border-color: slategrey; 
+    box-shadow: 0 0 5px rgba(112, 128, 144, 0.4);
+}
+
+.btn-login {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    
+    background-color: slategrey;
+    color: aliceblue;
+    
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn-login:hover {
+    background-color: #5a6b7d;
+}
+
+.login-helper {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.login-helper a {
+    color: slategrey;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-helper a:hover {
+    text-decoration: underline;
+}
