@@ -2,11 +2,6 @@
 
 O "JULIO SHOES" é um mini projeto front-end que simula uma loja virtual de calçados, construído com HTML5, CSS3 e JavaScript puro. O foco principal é a geração dinâmica de conteúdo: os produtos são carregados de uma Array de ObjetOS (um banco de dados simulado) e, em vez de uma lista estática, o script agrupa os itens por categoria e os injeta no HTML como carrosséis de produtos com scroll horizontal. O design utiliza Flexbox para criar um layout moderno com "sticky footer", e a identidade visual (`slategray`, `box-shadow`) é reutilizada de forma coesa tanto nos cards de produto quanto na página de login, demonstrando uma estrutura de site multi-página com componentes reaproveitáveis.
 
-##  STATUS DO PROJETO
-
-🚧 **Em Desenvolvimento** 🚧
-
-*(Este é um projeto de estudo focado no front-end e na manipulação do DOM. Funcionalidades de back-end, como sistema de carrinho ou pagamento, não foram implementadas).*
 
 ## 🚀 RECURSOS E FUNCIONALIDADES
 
